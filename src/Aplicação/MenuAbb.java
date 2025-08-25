@@ -11,9 +11,9 @@ public class MenuAbb {
         int opcao;
 
         do{
-            System.out.println("0 - Sair");
-            System.out.println("1 - Inserir valor na ABB");
-            System.out.println("2 - Aprensentar ABB(em ordem)");
+            System.out.println("0. Sair");
+            System.out.println("1. Inserir valor na ABB");
+            System.out.println("2. Aprensentar ABB(em ordem)");
             System.out.println("Opção: ");
             opcao = le.nextInt();
             switch (opcao) {
